@@ -1,0 +1,42 @@
+{
+ "n_train": 156,
+ "n_val": 17,
+ "n_eval": 115,
+ "feat_shape": [
+  16,
+  2560
+ ],
+ "target": "log teacher s_med",
+ "constant": {
+  "val": 0.18623503297567368,
+  "eval": 0.18482863903045654
+ },
+ "ridge": {
+  "alpha": 1000.0,
+  "val": 0.0795877741715878,
+  "eval": 0.08340589585924707,
+  "params": 2561,
+  "train_s": 0.25
+ },
+ "transformer": {
+  "params": 1748481,
+  "val": 0.05438476800918579,
+  "val_per_seed": [
+   0.06651290506124496,
+   0.07343430072069168,
+   0.06416904926300049
+  ],
+  "eval": 0.09509342908859253,
+  "epochs": [
+   71,
+   59,
+   51
+  ],
+  "train_s_total_3_seeds": 22.3,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "peak_vram_gb": 0.11
+ },
+ "chosen": "transformer",
+ "note": "errors are median |log(pred) - log(teacher s_med)|"
+}

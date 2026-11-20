@@ -1,0 +1,13 @@
+{
+ "model": "Qwen/Qwen3-VL-4B-Instruct",
+ "dtype": "bfloat16",
+ "torch": "2.11.0+cu128",
+ "transformers": "4.57.6",
+ "cuda_visible": null,
+ "gpu": "NVIDIA GeForce RTX 5090",
+ "condition": "anchor_k0.5",
+ "n_frames": 16,
+ "vlm_side": 448,
+ "shard": 0,
+ "nshards": 1
+}

@@ -1,0 +1,37 @@
+anchor_k1.41: 816 questions in shard 0/1, 0 done, 816 to run
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|##########| 2/2 [00:00<00:00, 64.15it/s]
+{'model': 'Qwen/Qwen3-VL-4B-Instruct', 'dtype': 'bfloat16', 'torch': '2.11.0+cu128', 'transformers': '4.57.6', 'cuda_visible': None, 'gpu': 'NVIDIA GeForce RTX 5090', 'condition': 'anchor_k1.41', 'n_frames': 16, 'vlm_side': 448, 'shard': 0, 'nshards': 1}
+  25/816  1.21 s/q  eta 16.0 min
+  50/816  1.20 s/q  eta 15.4 min
+  75/816  1.20 s/q  eta 14.8 min
+  100/816  1.20 s/q  eta 14.3 min
+  125/816  1.20 s/q  eta 13.8 min
+  150/816  1.20 s/q  eta 13.3 min
+  175/816  1.20 s/q  eta 12.8 min
+  200/816  1.20 s/q  eta 12.3 min
+  225/816  1.20 s/q  eta 11.8 min
+  250/816  1.20 s/q  eta 11.3 min
+  275/816  1.20 s/q  eta 10.8 min
+  300/816  1.20 s/q  eta 10.3 min
+  325/816  1.19 s/q  eta 9.8 min
+  350/816  1.17 s/q  eta 9.1 min
+  375/816  1.15 s/q  eta 8.4 min
+  400/816  1.13 s/q  eta 7.8 min
+  425/816  1.11 s/q  eta 7.2 min
+  450/816  1.10 s/q  eta 6.7 min
+  475/816  1.08 s/q  eta 6.2 min
+  500/816  1.08 s/q  eta 5.7 min
+  525/816  1.07 s/q  eta 5.2 min
+  550/816  1.06 s/q  eta 4.7 min
+  575/816  1.05 s/q  eta 4.2 min
+  600/816  1.04 s/q  eta 3.7 min
+  625/816  1.03 s/q  eta 3.3 min
+  650/816  1.03 s/q  eta 2.8 min
+  675/816  1.02 s/q  eta 2.4 min
+  700/816  1.01 s/q  eta 2.0 min
+  725/816  1.01 s/q  eta 1.5 min
+  750/816  1.01 s/q  eta 1.1 min
+  775/816  1.00 s/q  eta 0.7 min
+  800/816  0.99 s/q  eta 0.3 min
+done

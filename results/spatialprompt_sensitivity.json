@@ -1,0 +1,37 @@
+{
+ "n_total": 300,
+ "n_looping": 22,
+ "looping_still_at_2048_tokens": 22,
+ "tasks": {
+  "object_abs_distance": {
+   "n": 100,
+   "n_looping": 3,
+   "mra_all": 0.3620000000000001,
+   "mra_base_all": 0.46599999999999997,
+   "mra_no_loop": 0.3587628865979381,
+   "mra_base_no_loop": 0.46288659793814424,
+   "delta_all": -0.10399999999999987,
+   "delta_no_loop": -0.10412371134020615
+  },
+  "object_size_estimation": {
+   "n": 100,
+   "n_looping": 17,
+   "mra_all": 0.47800000000000004,
+   "mra_base_all": 0.7240000000000001,
+   "mra_no_loop": 0.5313253012048192,
+   "mra_base_no_loop": 0.7180722891566266,
+   "delta_all": -0.24600000000000005,
+   "delta_no_loop": -0.18674698795180733
+  },
+  "room_size_estimation": {
+   "n": 100,
+   "n_looping": 2,
+   "mra_all": 0.30999999999999994,
+   "mra_base_all": 0.508,
+   "mra_no_loop": 0.3163265306122449,
+   "mra_base_no_loop": 0.5122448979591836,
+   "delta_all": -0.19800000000000006,
+   "delta_no_loop": -0.19591836734693868
+  }
+ }
+}

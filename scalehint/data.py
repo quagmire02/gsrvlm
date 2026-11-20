@@ -139,7 +139,11 @@ def extract_frames(video_path, out_dir, n=N_FRAMES, side=FRAME_SIDE):
 
 # ---------------------------------------------------------------- anchors
 
-_SIZE_OBJ = re.compile(r"of the (.+?),?\s+measured in centimet", re.I)
+# Greedy prefix: take the object after the LAST "of the". VSI-Bench phrases these as
+# "...longest dimension (length, width, or height) of the <obj>, measured in centimeters",
+# and a non-greedy match from the first "of the" returned the whole phrase, which
+# broke the "anchor not named in the question" check for distance questions.
+_SIZE_OBJ = re.compile(r".*\bof the (.+?),?\s+measured in centimet", re.I)
 
 
 def size_object(question):

@@ -1,0 +1,138 @@
+{
+ "teacher": {
+  "k_levels": [
+   0.5,
+   0.71,
+   1.0,
+   1.41,
+   2.0
+  ],
+  "tasks": {
+   "object_abs_distance": {
+    "n": 331,
+    "median_beta": 1.471229345534973e-05,
+    "median_beta_ci": [
+     7.284535652768212e-17,
+     0.033773398523359394
+    ],
+    "frac_ignore(beta<0.2)": 0.9607250755287009,
+    "frac_full(beta>0.8)": 0.0
+   },
+   "object_size_estimation": {
+    "n": 386,
+    "median_beta": -8.192036656295621e-16,
+    "median_beta_ci": [
+     -9.565742600367297e-16,
+     -6.602719893677592e-16
+    ],
+    "frac_ignore(beta<0.2)": 0.9922279792746114,
+    "frac_full(beta>0.8)": 0.0
+   },
+   "room_size_estimation": {
+    "n": 115,
+    "median_beta": -3.982463917600559e-16,
+    "median_beta_ci": [
+     -6.058565312154281e-16,
+     -9.093465673574013e-17
+    ],
+    "frac_ignore(beta<0.2)": 0.9826086956521739,
+    "frac_full(beta>0.8)": 0.0
+   }
+  },
+  "copy_rate": {
+   "0.5": {
+    "object_abs_distance": 0.01812688821752266,
+    "object_size_estimation": 0.038860103626943004,
+    "room_size_estimation": 0.0
+   },
+   "0.71": {
+    "object_abs_distance": 0.09667673716012085,
+    "object_size_estimation": 0.06217616580310881,
+    "room_size_estimation": 0.0
+   },
+   "1": {
+    "object_abs_distance": 0.10574018126888217,
+    "object_size_estimation": 0.04935064935064935,
+    "room_size_estimation": 0.0
+   },
+   "1.41": {
+    "object_abs_distance": 0.1419939577039275,
+    "object_size_estimation": 0.04145077720207254,
+    "room_size_estimation": 0.0
+   },
+   "2": {
+    "object_abs_distance": 0.1299093655589124,
+    "object_size_estimation": 0.02077922077922078,
+    "room_size_estimation": 0.0
+   }
+  }
+ },
+ "anchor": {
+  "k_levels": [
+   0.5,
+   0.71,
+   1.0,
+   1.41,
+   2.0
+  ],
+  "tasks": {
+   "object_abs_distance": {
+    "n": 331,
+    "median_beta": -9.376887356789543e-17,
+    "median_beta_ci": [
+     -9.376887356789543e-17,
+     -3.8238751525256776e-17
+    ],
+    "frac_ignore(beta<0.2)": 0.9758308157099698,
+    "frac_full(beta>0.8)": 0.0
+   },
+   "object_size_estimation": {
+    "n": 366,
+    "median_beta": 7.1265303250427075e-06,
+    "median_beta_ci": [
+     -3.662790285980456e-16,
+     0.005575554830919127
+    ],
+    "frac_ignore(beta<0.2)": 0.9644808743169399,
+    "frac_full(beta>0.8)": 0.00819672131147541
+   },
+   "room_size_estimation": {
+    "n": 113,
+    "median_beta": 0.02526562911435091,
+    "median_beta_ci": [
+     0.011186289802658443,
+     0.05101222126706478
+    ],
+    "frac_ignore(beta<0.2)": 0.9911504424778761,
+    "frac_full(beta>0.8)": 0.0
+   }
+  },
+  "copy_rate": {
+   "0.5": {
+    "object_abs_distance": 0.021212121212121213,
+    "object_size_estimation": 0.07377049180327869,
+    "room_size_estimation": 0.0
+   },
+   "0.71": {
+    "object_abs_distance": 0.030211480362537766,
+    "object_size_estimation": 0.06284153005464481,
+    "room_size_estimation": 0.008849557522123894
+   },
+   "1": {
+    "object_abs_distance": 0.0634441087613293,
+    "object_size_estimation": 0.07103825136612021,
+    "room_size_estimation": 0.017699115044247787
+   },
+   "1.41": {
+    "object_abs_distance": 0.06646525679758308,
+    "object_size_estimation": 0.08469945355191257,
+    "room_size_estimation": 0.008849557522123894
+   },
+   "2": {
+    "object_abs_distance": 0.01812688821752266,
+    "object_size_estimation": 0.06284153005464481,
+    "room_size_estimation": 0.0
+   }
+  }
+ }
+}
